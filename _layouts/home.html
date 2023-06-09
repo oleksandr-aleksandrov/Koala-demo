@@ -9,7 +9,7 @@ layout: base
   {% for doc in sorted_docs %}
   <div id="documentation-items" class="documentation-items">
     <div>
-      <a href="{{ doc.url }}">
+      <a href="{{ doc.url | relative_url }}">
         {{ doc.title }}
       </a>
     </div>
