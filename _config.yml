@@ -59,3 +59,4 @@ minima:
 collections:
   docs:
     output: true
+    permalink: :path/
