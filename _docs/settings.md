@@ -4,8 +4,6 @@ title: 9. Settings
 order: 9
 ---
 
-# 9. Settings
-
 ## 9.1. General
 
 **1. One shot enabled by default**

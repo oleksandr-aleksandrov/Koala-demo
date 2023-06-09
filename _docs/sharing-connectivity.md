@@ -4,7 +4,6 @@ title: 8. Sharing & Connectivity
 order: 8
 ---
 
-# 8. Sharing & Connectivity
 ## 8.1. Exports
 **1. Export a sample**
 

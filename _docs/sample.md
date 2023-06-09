@@ -4,8 +4,6 @@ title: 4. Sample
 order: 4
 ---
 
-# 4. Sample
-
 ## 4.1. Introduction
 
 Koala is a powerful yet easy to use sampler. It allows you to sample up to 64 sounds from external sources (microphone

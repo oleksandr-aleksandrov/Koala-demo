@@ -4,7 +4,6 @@ title: 2. Général Overview
 order: 2
 ---
 
-# 2. Général Overview
 ## 2.1 Sample
 ![Sample](https://lh3.google.com/u/1/d/1FE2SJ_EDCO_bUt7UZJ1hqd3S59AK2-7S=w1920-h500-iv1)
 ## 2.2 Sequence

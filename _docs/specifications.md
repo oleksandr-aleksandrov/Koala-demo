@@ -1,10 +1,9 @@
 ---
 layout: docs
-title: 11. Sample
+title: 11. Specifications
 order: 11
 ---
 
-# 11. Specifications
 - Sampler
 Record up to 64 different samples with your mic"
 - Adjust trim, pan, pitch and volume of your samples

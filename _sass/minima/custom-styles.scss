@@ -1,2 +1,36 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+.documentation {
+  &-items {
+    font-size: 25px;
+    font-weight: 400;
+
+    &-wrapper {
+      @media screen and (min-width: 768px) {
+        column-count: 2;
+      }
+    }
+  }
+
+  &-item {
+    margin-bottom: 25px;
+  }
+
+  &-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 140px 0 80px;
+    text-align: center;
+  }
+
+  &-single-article {
+    &-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 50px;
+    }
+  }
+}
+

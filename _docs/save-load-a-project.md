@@ -4,8 +4,6 @@ title: 7. Save-Load a project
 order: 7
 ---
 
-# 7. Save-Load a project
-
 ## 7.1. Create a new project
 - {PICS} 
 - Click `"MENU"`, then click `"NEW"`
