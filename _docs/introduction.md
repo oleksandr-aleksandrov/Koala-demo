@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Introduction
+title: 1. Introduction
 order: 1
 ---
 

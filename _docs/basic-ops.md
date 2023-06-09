@@ -1,3 +1,9 @@
+---
+layout: docs
+title: 3. Basic ops (quick start guide with essential tips)
+order: 3
+---
+
 # 3. Basic ops (quick start guide with essential tips)
 
 | Gesture  | Images |
