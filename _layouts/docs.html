@@ -19,6 +19,8 @@ layout: base
 </article>
 
 
+
+
 {% if page.collection %}
 {% assign collection = site.docs | sort: 'order' %}
 
@@ -40,6 +42,9 @@ layout: base
 {% assign iterator = item %}
 {% endfor %}
 {% endif %}
+
+{{ prev | inspect }}
+
 
 <div class="documentation-navigation">
   <div>
