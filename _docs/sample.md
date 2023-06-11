@@ -142,7 +142,7 @@ There is differents way to add samples in Koala Sampler. Let's see how it works 
 Click the `"SOURCE"` button, then choose `"RECORD FROM MIC"`.
 
 [![Sample from microphone]({{ site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_7748-1.jpg){:.img-border .img-fluid"}]({{
-site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_7748-1)
+site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_7748-1.jpg)
 
 
 > **Note :** the MIC source is the default mode.
@@ -205,7 +205,8 @@ Koala is able to import audio files from your device folders, many formats are s
 </div>
 <div class="col-md-3" markdown="1">
 
-![IMPORT FILE](https://lh3.google.com/u/1/d/1zHfpsFsRHwXnXKw-X9rmDu4fqPiIsJTO=w1920-h500-iv1)
+[![IMPORT FILE]({{ site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_7750-1.png){:.img-border .img-fluid}]({{
+site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_7750-1.png)
 
 - Click the `"SOURCE"` button, then choose `"IMPORT FILES"`.
 - The source button now appears as `"IMPORT"`.
@@ -213,7 +214,9 @@ Koala is able to import audio files from your device folders, many formats are s
 
 </div>
 <div class="col-md-3" markdown="1">
-![IMPORT AUDIO](https://lh3.google.com/u/1/d/1VB8qvrO9Fn2vnhon98nVYZGIaIG5BrJG=w1919-h500-iv1)
+
+[![IMPORT AUDIO]({{ site.baseurl }}/assets/images/4-sample/4-3-3-loading-a-sample/IMG_7805-1.png){:.img-border .img-fluid}]({{
+site.baseurl }}/assets/images/4-sample/4-3-3-loading-a-sample/IMG_7805-1.png)
 
 - Click the `"MENU"` button, then choose `"IMPORT AUDIO"`.
 - The source button now appears as `"IMPORT"`.
@@ -221,14 +224,12 @@ Koala is able to import audio files from your device folders, many formats are s
 
 </div>
 
-<div class="col-md-9" markdown="1">
+<div class="col-md-3" markdown="1">
 > Note : On iOS devices formats like `AIFF, CAF, WAVPACK` are supported too, and you can try any other format to see if
 > it works !
 </div>
 
 </div>
-
-
 
 **2. Convert a video to sample.**
 
@@ -239,13 +240,19 @@ A video screen shot, a video in your gallery, etc... Converting any video in a s
 sampler ! Let's see how to do it.
 </div>
 
-![Convert a video to sample](https://lh3.google.com/u/1/d/1LBzA_JvF6i_S_OL3cj6xf4SRi0p48ryT=w1919-h500-iv1)
+<div class="col-md-3" markdown="1">
+
+[![IMPORT VIDEO]({{ site.baseurl }}/assets/images/4-sample/4-3-3-loading-a-sample/IMG_7806-1.png){:.img-border .img-fluid}]({{
+site.baseurl }}/assets/images/4-sample/4-3-3-loading-a-sample/IMG_7806-1.png)
 
 - Click the `"MENU"` button, then choose `"IMPORT VIDEO"`. It will open a window to select videos on your device.
 - By clicking on a file, you can preview the video before adding.
 - Select a video to import, then click on `"Use"` to convert the video.
 - Let Koala process and that's it ! Your video is converted to a sample and Koala put it in the first empty pad.
 
+</div>
+
+<div class="col-md-3" markdown="1">
 > **Note :** if you have toggled on `"Hold to record"` in the general settings, you press the pas as long as you want
 > the sample last. You can also slide up the pad to hold record.
 
@@ -257,13 +264,30 @@ sampler ! Let's see how to do it.
 
 ### 4.3.4. File picker
 
+<div class="col-md-6" markdown="1">
+
 Koala is able to import audio files from your device folders, many formats are supported `(WAV, MP3, M4A, FLAC)`.
+
+</div>
+
+
 **1. Open the file picker**
 --help
+<div class="row mb-70" markdown="1">
+<div class="col-md-3" markdown="1">
+
 ![File picker](https://lh3.google.com/u/1/d/1ECqjotnHWwTJ1fdsQmNqHD8Ifj2dUODG=w1920-h500-iv1)
+
 Click `"FILE PICKER"` at the bottom right, it opens a window with your favorite folders.
 
+</div>
+
+<div class="col-md-3" markdown="1">
+
 > **Note :** the file picker button appears under the name of the current selected folder."
+
+</div>
+</div>
 
 **2. Add a favorite folder**
 

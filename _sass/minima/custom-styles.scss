@@ -11,7 +11,7 @@ a {
   color: #d0d0d0;
 }
 
-strong,b {
+strong, b {
   font-weight: 400;
 }
 
@@ -22,6 +22,7 @@ strong,b {
 code {
   background: rgba(254, 46, 90, 0.4);
   color: #fff;
+  font-weight: 400;
 }
 
 pre > code {
@@ -95,4 +96,8 @@ blockquote {
 
 .mb-70 {
   margin-bottom: 70px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
 }
