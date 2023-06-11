@@ -6,10 +6,14 @@ order: 4
 
 ## 4.1. Introduction
 
+<div class="row" markdown="1">
+<div class="col-md-6 mb-70" markdown="1">
 Koala is a powerful yet easy to use sampler. It allows you to sample up to 64 sounds from external sources (microphone
 of your device, external sound card via usb). Koala also allows you to re-sample, import audio files or convert video to
 sound. The sampler in koala can be used stand alone, possibilites are endless, let's make music with the the wonderful
 world of sounds around you !
+</div>
+</div>
 
 ## 4.2. Overview
 
@@ -19,39 +23,87 @@ world of sounds around you !
 
 ### 4.3.1. Sample Source
 
+<div class="row" markdown="1">
+<div class="col-md-6" markdown="1">
 The first thing you have to do to add a sound in Koala Sampler is selecting a source. Here are the differents methods to
 do it.
+</div>
 
+<div class="row mb-70" markdown="1">
+<div class="col-md-3" markdown="1">
 **1. Monitoring**
+
 Before everything, let's monitor to hear what comes in.
-![Monitoring](https://lh3.google.com/u/1/d/1hoxFtRcKs1pevi60B6ssvSTzIAByMDD6=w1920-h500-iv1)
-![Click the "MONITOR" button to ear the entry signal](https://lh3.google.com/u/1/d/1pJGQxQqS-dbC8dUEftpdTKL5tm9l-XxG=w1920-h500-iv1)
+
 Click the `"MONITOR"` button to ear the entry signal.
 
 > **Note :** The monitor button appears as a headphones pictogram.
 
 Be careful : only activate `"MONITOR"` if you have headphones connected to your device, unless you'll ear big larsen !
 
+</div>
+
+<div class="col-md-3" markdown="1">
+[![Monitoring]({{ site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_8145.jpg){:.img-border .img-fluid width="380"}]({{
+site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_8145.jpg)
+</div>
+
+<div class="col-md-3" markdown="1">
+[![Click the "MONITOR" button to ear the entry signal]({{ site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_8146.png){:.img-border .img-fluid width="380"}]({{
+site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_8146.png)
+</div>
+</div>
+
+
+<div class="row mb-70" markdown="1">
+<div class="col-md-3" markdown="1">
+
 **2. Select source**
+
 Koala is able to use differents sources to sample.
 
-![Select source](https://lh3.google.com/u/1/d/1gB_7vIwt_57UprnUCp4uQeZK7LX5oPC_=w1920-h500-iv1)
 Click the `"SOURCE"` button to open a window where you can select the available sources.
 
 > **Note :** The source button appears under the name of the mode in which it is configured `(MIC-RESAMPLE-IMPORT)`
 
-- **RECORD FROM MIC**
-  This source use the internal microphone of your device as a
-  ![RECORD FROM MIC](https://lh3.google.com/u/1/d/1SdtPI0ZU9bwK5Y8vSbo2kymkBDfEl94K=w1920-h500-iv1)
+</div>
+<div class="col-md-3" markdown="1">
+[![Select source]({{ site.baseurl }}/assets/images/4-sample/4-3-2-sample-source/IMG_7803.png){:.img-border .img-fluid  width="380"}]({{
+site.baseurl }}/assets/images/4-sample/4-3-2-sample-source/IMG_7803.png)
+</div>
+</div>
 
-- **RESAMPLE FROM APP**
-  This source use the master of the app as a source.
-  ![RESAMPLE FROM APP](https://lh3.google.com/u/1/d/1E2lIZEIdDX-nY_k-Y9CVozJ2GH7paWmR=w1920-h500-iv1)
 
-- **IMPORT FILE**
-  This source use the folders of your device to load sounds.
-  ![IMPORT FILE](https://lh3.google.com/u/1/d/1zHfpsFsRHwXnXKw-X9rmDu4fqPiIsJTO=w1920-h500-iv1)
+<div class="row" markdown="1">
+<div class="col-md-3" markdown="1">
 
+[![RECORD FROM MIC]({{ site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_7748.png){:.img-border .img-fluid}]({{
+site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_7748.png)
+
+**RECORD FROM MIC**
+
+This source use the internal microphone of your device as a
+</div>
+<div class="col-md-3" markdown="1">
+[![RECORD FROM APP]({{ site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_7749.png){:.img-border .img-fluid}]({{
+site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_7749.png)
+
+**RESAMPLE FROM APP**
+
+This source use the master of the app as a source.
+
+
+</div>
+<div class="col-md-3" markdown="1">
+[![IMPORT FILE]({{ site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_7750.png){:.img-border .img-fluid}]({{
+site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_7750.png)
+
+**IMPORT FILE**
+
+This source use the folders of your device to load sounds.
+
+
+</div>
 - **Source**
 - mic
 - configuration via usb (ex: connectivity audio `"record player to koala" w audio interface"`)
@@ -73,18 +125,24 @@ There is differents way to add samples in Koala Sampler. Let's see how it works 
 **1.Sample from microphone**
 Click the `"SOURCE"` button, then choose `"RECORD FROM MIC"`.
 
-![Sample from microphone](https://lh3.google.com/u/1/d/1SdtPI0ZU9bwK5Y8vSbo2kymkBDfEl94K=w1920-h500-iv1)
+[![Sample from microphone]({{ site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_7748.png){:.img-border width="
+230px"}]({{ site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_7748.png)
+
 
 > **Note :** the MIC source is the default mode.
 
 - The source button now appears as `"MIC"`.
 - Press an empty pad and it will sample from the microphone.
 
+<br>
+
 --help **2.Sample from usb interface**
+
 If your device is connected to a USB interface, Koala use it automatically as a source. The "MIC" source on Koala is now
 your external source.
 
-![Sample from usb interface](https://lh3.google.com/u/1/d/1ECqjotnHWwTJ1fdsQmNqHD8Ifj2dUODG=w1920-h500-iv1)
+![Sample from usb interface]()
+
 Click the `"SOURCE"` button, then choose `"RECORD FROM MIC"`.
 
 > **Note :** the MIC source is the default mode
@@ -92,10 +150,14 @@ Click the `"SOURCE"` button, then choose `"RECORD FROM MIC"`.
 - The source button now appears as `"MIC"`.
 - Press an empty pad and it will sample from your USB interface.
 
+<br>
+
 **3.Re-sample from app**
+
 You can use the master of the app as a source.
 
-![Re-sample from app](https://lh3.google.com/u/1/d/1E2lIZEIdDX-nY_k-Y9CVozJ2GH7paWmR=w1920-h500-iv1)
+[![Re-sample from app]({{ site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_7749.png){:.img-border width="
+230px"}]({{ site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_7749.png)
 
 - Click the `"SOURCE"` button, then choose `"RESAMPLE FROM APP"`.
 - The source button now appears as `"RESAMPLE"`.
@@ -107,8 +169,12 @@ You can use the master of the app as a source.
 You can import almost anything in Koala Sampler. A good way to use your own drum kits, sample packs, or sound of a
 video.
 
+<br>
+
 **1. Import files**
+
 Koala is able to import audio files from your device folders, many formats are supported `(WAV, MP3, M4A, FLAC)`.
+
 ![IMPORT FILE](https://lh3.google.com/u/1/d/1zHfpsFsRHwXnXKw-X9rmDu4fqPiIsJTO=w1920-h500-iv1)
 
 - Click the `"SOURCE"` button, then choose `"IMPORT FILES"`.
@@ -124,8 +190,10 @@ Koala is able to import audio files from your device folders, many formats are s
 > Note : On iOS devices formats like `AIFF, CAF, WAVPACK` are supported too, and you can try any other format to see if
 > it works !
 
+<br>
 
 **2. Convert a video to sample.**
+
 A video screen shot, a video in your gallery, etc... Converting any video in a sample never had been so easy in a
 sampler ! Let's see how to do it.
 

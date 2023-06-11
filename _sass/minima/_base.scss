@@ -31,7 +31,6 @@ body {
   min-height: 100vh;
   flex-direction: column;
   overflow-wrap: break-word;
-  background-image: url(https://www.koalasampler.com/wp-content/uploads/2021/04/bg.png);
 }
 
 /**
@@ -41,7 +40,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-  margin-bottom: $spacing-unit * .5;
+  margin-bottom: $spacing-unit * 1;
 }
 
 hr {

@@ -4,8 +4,31 @@ title: 3. Basic ops (quick start guide with essential tips)
 order: 3
 ---
 
-| Gesture  | Images |
-| ------ | ------ |
-| **Swap pads** | ![Swap pads](https://lh3.google.com/u/1/d/1Bs4WKw43-PeRmRRD_6L8nMKFCcdVTjhm=w1920-h500-iv1)|
-| **Slide up to trash** | ![Slide up to trash](https://lh3.google.com/u/1/d/1JrEbj6rR_hJHqr_Hnkz3up9e5JgSLvOo=w549-h500-iv1)|
-| **Copy** | ![Copy](-)|
+<div class="row" markdown="1">
+<div class="col-md-3" markdown="1">
+
+
+[![Swap pads]({{ site.baseurl }}/assets/images/3-basic-ops/IMG_7661.png){:.img-border img-fluid}]({{ site.baseurl
+}}/assets/images/3-basic-ops/IMG_7661.png)
+
+Swap pads
+
+</div>
+<div class="col-md-3" markdown="1">
+
+[![Slide up to trash]({{ site.baseurl }}/assets/images/3-basic-ops/IMG_7725.png){:.img-border img-fluid}
+]({{ site.baseurl }}/assets/images/3-basic-ops/IMG_7725.png)
+
+Slide up to trash
+
+</div>
+<div class="col-md-3" markdown="1">
+
+
+[![Copy]({{ site.baseurl }}/assets/images/3-basic-ops/IMG_7725.png){:.img-border img-fluid}
+]({{ site.baseurl }}/assets/images/3-basic-ops/IMG_7725.png)
+
+Copy
+
+</div>
+</div>
