@@ -37,7 +37,6 @@ site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_8145.jpg)
 
 ### 4.3.1. Sample Source
 
-<div class="row" markdown="1">
 <div class="col-md-6" markdown="1">
 
 The first thing you have to do to add a sound in Koala Sampler is selecting a source. Here are the differents methods to
@@ -292,53 +291,78 @@ Koala is able to import audio files from your device folders, many formats are s
 
 </div>
 
-
-**1. Open the file picker**
---help
 <div class="row mb-70" markdown="1">
 <div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
 
-![File picker](https://lh3.google.com/u/1/d/1ECqjotnHWwTJ1fdsQmNqHD8Ifj2dUODG=w1920-h500-iv1)
+[![Open the file picker]({{ site.baseurl }}/assets/images/4-sample/4-3-4/IMG_7936-1-(43).png){:.img-border .img-fluid}]({{
+site.baseurl }}/assets/images/4-sample/4-3-4/IMG_7936-1-(43).png)
+
+**1. Open the file picker**
+
+--help
 
 Click `"FILE PICKER"` at the bottom right, it opens a window with your favorite folders.
-
-</div>
-
-<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
 
 > **Note :** the file picker button appears under the name of the current selected folder."
 
 </div>
-</div>
+
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
+
+[![Add a favorite folder]({{ site.baseurl }}/assets/images/4-sample/4-3-4/IMG_7936-1-(44).png){:.img-border .img-fluid}]({{
+site.baseurl }}/assets/images/4-sample/4-3-4/IMG_7936-1-(44).png)
 
 **2. Add a favorite folder**
-
-![Re-sample from app](https://lh3.google.com/u/1/d/1ECqjotnHWwTJ1fdsQmNqHD8Ifj2dUODG=w1920-h500-iv1)
 
 * Click `"ADD LOCATION"`, it opens a navigation folder on your device.
 * Select a folder and click `"OK"`.
 * The folder is now in your favorites.
 
-**3. Load a sound from a folder**
+</div>
 
-![Re-sample from app](https://lh3.google.com/u/1/d/1ECqjotnHWwTJ1fdsQmNqHD8Ifj2dUODG=w1920-h500-iv1)
+<div class="col-md-12 col-lg-12 col-xl-6 mb-40" markdown="1">
+
+<div class="row" markdown="1">
+<div class="col-md-6" markdown="1">
+
+[![Add a favorite folder]({{ site.baseurl }}/assets/images/4-sample/4-3-4/IMG_7936-1-(45).png){:.img-border .img-fluid}]({{
+site.baseurl }}/assets/images/4-sample/4-3-4/IMG_7936-1-(45).png)
+
+</div>
+<div class="col-md-6" markdown="1">
+
+[![Add a favorite folder]({{ site.baseurl }}/assets/images/4-sample/4-3-4/IMG_7936-1-(46).png){:.img-border .img-fluid}]({{
+site.baseurl }}/assets/images/4-sample/4-3-4/IMG_7936-1-(46).png)
+
+</div>
+
+**3. Load a sound from a folder**
 
 - Select one of your favorite folder containing your sounds.
 - Click the audio files to have a preview.
 - Drag and drop on a pad.
 - It's ready to use !
 
-**4. Load a sound from Koala Songs**
+</div>
+</div>
+
+<div class="col-md-12 col-lg-12 col-xl-6 mb-40" markdown="1">
+
 ![Re-sample from app](https://lh3.google.com/u/1/d/1ECqjotnHWwTJ1fdsQmNqHD8Ifj2dUODG=w1920-h500-iv1)
+
+**4. Load a sound from Koala Songs**
 
 - Select the `"SONGS"` folder, you are now in your Koala backups.
 - Select a song, it opens a preview of it, you can now access all the pads of this project.
 - Press the pads to have a preview.
 - Drag and drop on a pad in your current project.
 
-**5. Load a bank from Koala Songs**
+</div>
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
 
 ![Re-sample from app](https://lh3.google.com/u/1/d/1ECqjotnHWwTJ1fdsQmNqHD8Ifj2dUODG=w1920-h500-iv1)
+
+**5. Load a bank from Koala Songs**
 
 - Select the `"SONGS"` folder, you are now in your Koala backups.
 - Select a song, it opens a preview of it, you can now access all the pads of this project.
@@ -347,6 +371,9 @@ Click `"FILE PICKER"` at the bottom right, it opens a window with your favorite 
 - Be careful !! When you load a bank it replaces the actual pads so keep in mind selecting an empty bank in your project
   before loading.
 - //file picker
+
+</div>
+</div>
 
 ### 4.3.5. Editing a sample
 
