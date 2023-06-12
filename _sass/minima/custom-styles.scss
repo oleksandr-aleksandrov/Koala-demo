@@ -29,10 +29,19 @@ pre > code {
   background-color: transparent;
 }
 
-.img-border {
+.img-border,
+.img-placeholder {
   padding: 20px;
   border: 1px solid #8b8b8b;
   box-sizing: border-box;
+
+  @media screen and (max-width: 1199px) {
+    padding: 10px;
+  }
+}
+
+.img-placeholder {
+  border-color: transparent;
 }
 
 blockquote {
@@ -86,8 +95,16 @@ blockquote {
       align-items: baseline;
       margin-bottom: 50px;
 
+      @media screen and (max-width: 991px) {
+        flex-direction: column-reverse;
+      }
+
       a {
         font-size: 26px;
+        text-align: right;
+        @media screen and (max-width: 991px) {
+          margin-bottom: 10px;
+        }
       }
     }
   }

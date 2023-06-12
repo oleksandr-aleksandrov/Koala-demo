@@ -7,9 +7,9 @@ order: 9
 ## 9.1. General
 
 <div class="row mb-70" markdown="1">
-<div class="col-md-3 mb-40" markdown="1">
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
 
-[![One shot enabled by default]({{ site.baseurl }}/assets/images/9-settings/9-1-general/IMG_7936-1.png){:.img-border .img-fluid width="380"}]({{
+[![One shot enabled by default]({{ site.baseurl }}/assets/images/9-settings/9-1-general/IMG_7936-1.png){:.img-border .img-fluid}]({{
 site.baseurl }}/assets/images/9-settings/9-1-general/IMG_7936-1.png)
 
 **1. One shot enabled by default**
@@ -21,9 +21,9 @@ Set how will new samples be played, one shot or not, here we go!
 
 </div>
 
-<div class="col-md-3 mb-40" markdown="1">
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
 
-[![Hold to record]({{ site.baseurl }}/assets/images/9-settings/9-1-general/IMG_7937-1.png){:.img-border .img-fluid width="380"}]({{
+[![Hold to record]({{ site.baseurl }}/assets/images/9-settings/9-1-general/IMG_7937-1.png){:.img-border .img-fluid}]({{
 site.baseurl }}/assets/images/9-settings/9-1-general/IMG_7937-1.png)
 
 **2. Hold to record**
@@ -33,9 +33,9 @@ site.baseurl }}/assets/images/9-settings/9-1-general/IMG_7937-1.png)
 
 </div>
 
-<div class="col-md-3 mb-40" markdown="1">
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
 
-[![Hold to record]({{ site.baseurl }}/assets/images/9-settings/9-1-general/IMG_7938-1.png){:.img-border .img-fluid width="380"}]({{
+[![Hold to record]({{ site.baseurl }}/assets/images/9-settings/9-1-general/IMG_7938-1.png){:.img-border .img-fluid}]({{
 site.baseurl }}/assets/images/9-settings/9-1-general/IMG_7938-1.png)
 
 **3. Count in**
@@ -46,8 +46,9 @@ Pre-count beats before the recording, this is useful when you want to start reco
 
 </div>
 
-<div class="col-md-3 mb-40" markdown="1">
-[![Hold to record]({{ site.baseurl }}/assets/images/9-settings/9-1-general/IMG_7939-1.png){:.img-border .img-fluid width="380"}]({{
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
+
+[![Count in*]({{ site.baseurl }}/assets/images/9-settings/9-1-general/IMG_7939-1.png){:.img-border .img-fluid}]({{
 site.baseurl }}/assets/images/9-settings/9-1-general/IMG_7939-1.png)
 
 **4. Pitch knob snap to semitone**
@@ -56,8 +57,9 @@ site.baseurl }}/assets/images/9-settings/9-1-general/IMG_7939-1.png)
 
 </div>
 
-<div class="col-md-3 mb-40" markdown="1">
-[![Hold to record]({{ site.baseurl }}/assets/images/9-settings/9-1-general/IMG_7941-1.png){:.img-border .img-fluid width="380"}]({{
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
+
+[![Pitch knob snap to semitone]({{ site.baseurl }}/assets/images/9-settings/9-1-general/IMG_7941-1.png){:.img-border .img-fluid}]({{
 site.baseurl }}/assets/images/9-settings/9-1-general/IMG_7941-1.png)
 
 **5. Warn before delete samples and sequences**
@@ -71,59 +73,74 @@ site.baseurl }}/assets/images/9-settings/9-1-general/IMG_7941-1.png)
 ### 9.2. Audio
 
 <div class="row mb-70" markdown="1">
-<div class="col-md-3 mb-40" markdown="1">
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
+
+[![Input source (USB only)]({{ site.baseurl }}/assets/images/9-settings/9-2-audio/IMG_7943-1.png){:.img-border .img-fluid}]({{
+site.baseurl }}/assets/images/9-settings/9-2-audio/IMG_7943-1.png)
 
 **1. Input source (USB only)**
 
-- { PICS }
 - Click the channel you want to use as source.
 - This works only with USB sound interface.
 
 </div>
-<div class="col-md-3 mb-40" markdown="1">
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
+
+[![Background audio]({{ site.baseurl }}/assets/images/9-settings/9-2-audio/IMG_7943-2.png){:.img-border .img-fluid}]({{
+site.baseurl }}/assets/images/9-settings/9-2-audio/IMG_7943-2.png)
 
 **2. Background audio**
 
-- { PICS }
 - Toggle to enable or disable it.
 
 </div>
 
-<div class="col-md-3 mb-40" markdown="1">
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
+
+[![Inter-App audio sync]({{ site.baseurl }}/assets/images/9-settings/9-2-audio/IMG_7943-3.png){:.img-border .img-fluid}]({{
+site.baseurl }}/assets/images/9-settings/9-2-audio/IMG_7943-3.png)
 
 **3. Inter-App audio sync**
 
-- { PICS }
 - Toggle to enable or disable it.
 
 </div>
-<div class="col-md-3 mb-40" markdown="1">
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
+
+[![Pocket Operator sync out]({{ site.baseurl }}/assets/images/9-settings/9-2-audio/IMG_7943-4.png){:.img-border .img-fluid}]({{
+site.baseurl }}/assets/images/9-settings/9-2-audio/IMG_7943-4.png)
 
 **4. Pocket Operator sync out**
 
-- { PICS }
 - Toggle to enable or disable it.
 
 </div>
-<div class="col-md-3 mb-40" markdown="1">
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
+
+[![Metronome volume]({{ site.baseurl }}/assets/images/9-settings/9-2-audio/IMG_7943-6.png){:.img-border .img-fluid}]({{
+site.baseurl }}/assets/images/9-settings/9-2-audio/IMG_7943-6.png)
 
 **5. Metronome volume**
 
-- { PICS }
 - Click or Slide the button to adjust metronome volume
 
 </div>
-<div class="col-md-3 mb-40" markdown="1">
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
+
+![]({{ site.baseurl }}/assets/images/placeholder.png){:.img-placeholder .img-fluid}
 
 **6. I/O**
 
 - Displays information about Koala's INs and OUTs.
 
 </div>
-<div class="col-md-3 mb-40" markdown="1">
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
+
+[![Metronome volume]({{ site.baseurl }}/assets/images/9-settings/9-2-audio/IMG_7943-5.png){:.img-border .img-fluid}]({{
+site.baseurl }}/assets/images/9-settings/9-2-audio/IMG_7943-5.png)
+
 **7. Auto trim on record**
 
-- { PICS }
 - Toggle to enable or disable it.
 
 </div>
@@ -133,68 +150,95 @@ site.baseurl }}/assets/images/9-settings/9-1-general/IMG_7941-1.png)
 
 <div class="row" markdown="1">
 
-<div class="col-md-3 mb-40" markdown="1">
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
+
+[![Enable midi velocity]({{ site.baseurl }}/assets/images/9-settings/9-3-MIDI/IMG_7936-1-(7).png){:.img-border .img-fluid}]({{
+site.baseurl }}/assets/images/9-settings/9-3-MIDI/IMG_7936-1-(7).png)
 
 **1. Enable midi velocity**
 
-- { PICS }
 - Toggle to enable or disable it.
 
 </div>
-<div class="col-md-3 mb-40" markdown="1">
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
+
+[![Use MIDI mapping]({{ site.baseurl }}/assets/images/9-settings/9-3-MIDI/IMG_7936-1-(15).png){:.img-border .img-fluid}]({{
+site.baseurl }}/assets/images/9-settings/9-3-MIDI/IMG_7936-1-(15).png)
 
 **2. Use MIDI mapping**
 
-- { PICS }
+
 - Toggle to enable or disable it.
-- { PICS }
+
+[![MIDI can record pads]({{ site.baseurl }}/assets/images/9-settings/9-3-MIDI/IMG_7936-1-(11).png){:.img-border .img-fluid}]({{
+site.baseurl }}/assets/images/9-settings/9-3-MIDI/IMG_7936-1-(11).png)
+
 - Click `"Map MIDI"`
-- { PICS }
+
+[![MIDI can record pads]({{ site.baseurl }}/assets/images/9-settings/9-3-MIDI/IMG_7936-1-(11).png){:.img-border .img-fluid}]({{
+site.baseurl }}/assets/images/9-settings/9-3-MIDI/IMG_7936-1-(11).png)
+
 - --help Connect a midi device, then start mapping.
-- { PICS }
+
+[![MIDI can record pads]({{ site.baseurl }}/assets/images/9-settings/9-3-MIDI/IMG_7947.png){:.img-border .img-fluid}]({{
+site.baseurl }}/assets/images/9-settings/9-3-MIDI/IMG_7947.png)
+
 - When you've done, click `"STOP MAPPING"`
 
 </div>
-<div class="col-md-3 mb-40" markdown="1">
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
+
+[![Ableton link]({{ site.baseurl }}/assets/images/9-settings/9-3-MIDI/IMG_7936-1-(12).png){:.img-border .img-fluid}]({{
+site.baseurl }}/assets/images/9-settings/9-3-MIDI/IMG_7936-1-(12).png)
 
 **3. Ableton link**
 
-- { PICS }
 - Click `"Ableton Link"`, a window pops.
-- { PICS }
+
+  [![Ableton link]({{ site.baseurl }}/assets/images/9-settings/9-3-MIDI/IMG_7936-1-(13).png){:.img-border .img-fluid}]({{
+  site.baseurl }}/assets/images/9-settings/9-3-MIDI/IMG_7936-1-(13).png)
+
 - Toggle ON Ableton Link.
 
 </div>
-<div class="col-md-3 mb-40" markdown="1">
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
+
+[![Bluetooth MIDI]({{ site.baseurl }}/assets/images/9-settings/9-3-MIDI/IMG_7936-1-(14).png){:.img-border .img-fluid}]({{
+site.baseurl }}/assets/images/9-settings/9-3-MIDI/IMG_7936-1-(14).png)
 
 **4. Bluetooth MIDI**
 
-- { PICS }
 - Click `"BLUETOOTH MIDI"` and select your device in the list
 - If the list doesn't show your device, check the bluetooth configuration on your device.
 
 </div>
-<div class="col-md-3 mb-40" markdown="1">
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
+
+[![MIDI can select pads]({{ site.baseurl }}/assets/images/9-settings/9-3-MIDI/IMG_7936-1-(8).png){:.img-border .img-fluid}]({{
+site.baseurl }}/assets/images/9-settings/9-3-MIDI/IMG_7936-1-(8).png)
 
 **5. MIDI can select pads**
 
-- { PICS }
 - Toggle to enable or disable it.
 
 </div>
-<div class="col-md-3 mb-40" markdown="1">
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
+
+[![MIDI can record pads]({{ site.baseurl }}/assets/images/9-settings/9-3-MIDI/IMG_7936-1-(9).png){:.img-border .img-fluid}]({{
+site.baseurl }}/assets/images/9-settings/9-3-MIDI/IMG_7936-1-(9).png)
 
 **6. MIDI can record pads**
 
-- { PICS }
 - Toggle to enable or disable it.
 
 </div>
-<div class="col-md-3 mb-40" markdown="1">
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
+
+[![External MIDI clock sync]({{ site.baseurl }}/assets/images/9-settings/9-3-MIDI/IMG_7936-1-(10).png){:.img-border .img-fluid}]({{
+site.baseurl }}/assets/images/9-settings/9-3-MIDI/IMG_7936-1-(10).png)
 
 **7. External MIDI clock sync**
 
-- { PICS }
 - Toggle to enable or disable it.
 
 </div>
@@ -203,41 +247,54 @@ site.baseurl }}/assets/images/9-settings/9-1-general/IMG_7941-1.png)
 ## 9.4. Extras
 
 <div class="row mb-70" markdown="1">
-<div class="col-md-3 mb-40" markdown="1">
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
+
+[![Show mute/solo]({{ site.baseurl }}/assets/images/9-settings/9-4-extras/IMG_7936-1-(16).png){:.img-border .img-fluid}]({{
+site.baseurl }}/assets/images/9-settings/9-4-extras/IMG_7936-1-(16).png)
+
 **1. Show mute/solo**
 
-- { PICS }
 - Toggle to enable or disable it.
 
 </div>
-<div class="col-md-3 mb-40" markdown="1">
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
+
+[![Background]({{ site.baseurl }}/assets/images/9-settings/9-4-extras/IMG_7936-1-(17).png){:.img-border .img-fluid}]({{
+site.baseurl }}/assets/images/9-settings/9-4-extras/IMG_7936-1-(17).png)
 
 **2. Background**
 
-- { PICS }
 - Click `"CHOOSE"` and select a background image in your gallery.
 
 </div>
-<div class="col-md-3 mb-40" markdown="1">
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
+
+[![Export bit depth]({{ site.baseurl }}/assets/images/9-settings/9-4-extras/IMG_7936-1-(18).png){:.img-border .img-fluid}]({{
+site.baseurl }}/assets/images/9-settings/9-4-extras/IMG_7936-1-(18).png)
+
 **3. Export bit depth**
 By default the bit depth is the same as your device.
 
-- { PICS }
 - Choose 16 or 24 bits
 
 </div>
-<div class="col-md-3 mb-40" markdown="1">
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
+
+[![Koala version]({{ site.baseurl }}/assets/images/9-settings/9-4-extras/IMG_7936-1-(21).png){:.img-border .img-fluid}]({{
+site.baseurl }}/assets/images/9-settings/9-4-extras/IMG_7936-1-(21).png)
 
 **4. Koala version**
 
 - Displays informations about Koala Version
 
 </div>
-<div class="col-md-3 mb-40" markdown="1">
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
+
+[![Stem splitter neural network]({{ site.baseurl }}/assets/images/9-settings/9-4-extras/IMG_7936-1-(22).png){:.img-border .img-fluid}]({{
+site.baseurl }}/assets/images/9-settings/9-4-extras/IMG_7936-1-(22).png)
 
 **5. Stem splitter neural network**
 
-- { PICS }
 - Click `"CHOOSE"` and select a background image in your gallery.
 - settings
 - // general
