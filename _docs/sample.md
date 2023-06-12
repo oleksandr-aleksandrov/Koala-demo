@@ -6,20 +6,31 @@ order: 4
 
 ## 4.1. Introduction
 
-<div class="row" markdown="1">
-<div class="col-md-6 mb-70" markdown="1">
+<div class="row mb-70" markdown="1">
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
+
 Koala is a powerful yet easy to use sampler. It allows you to sample up to 64 sounds from external sources (microphone
 of your device, external sound card via usb). Koala also allows you to re-sample, import audio files or convert video to
-sound. The sampler in koala can be used stand alone, possibilites are endless, let's make music with the the wonderful
+sound.
+
+</div>
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
+
+The sampler in koala can be used stand alone, possibilites are endless, let's make music with the the wonderful
 world of sounds around you !
+
 </div>
 </div>
 
 ## 4.2. Overview
 
-<div class="col-md-3 mb-70" markdown="1">
-[![Overview]({{ site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_8145.jpg){:.img-border .img-fluid width="380"}]({{
+<div class="row mb-70" markdown="1">
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
+
+[![Overview]({{ site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_8145.jpg){:.img-border .img-fluid}]({{
 site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_8145.jpg)
+
+</div>
 </div>
 
 ## 4.3. Basic ops
@@ -28,12 +39,18 @@ site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_8145.jpg)
 
 <div class="row" markdown="1">
 <div class="col-md-6" markdown="1">
+
 The first thing you have to do to add a sound in Koala Sampler is selecting a source. Here are the differents methods to
 do it.
+
 </div>
 
 <div class="row mb-70" markdown="1">
-<div class="col-md-3" markdown="1">
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
+
+[![Monitoring]({{ site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_8145-1.png){:.img-border .img-fluid}]({{
+site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_8145-1.png)
+
 **1. Monitoring**
 
 Before everything, let's monitor to hear what comes in.
@@ -42,24 +59,25 @@ Click the `"MONITOR"` button to ear the entry signal.
 
 > **Note :** The monitor button appears as a headphones pictogram.
 
+</div>
+
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
+
+[![Click the "MONITOR" button to ear the entry signal]({{ site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_8146-1.png){:.img-border .img-fluid}]({{
+site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_8146-1.png)
+
 Be careful : only activate `"MONITOR"` if you have headphones connected to your device, unless you'll ear big larsen !
 
-</div>
-
-<div class="col-md-3" markdown="1">
-[![Monitoring]({{ site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_8145.jpg){:.img-border .img-fluid width="380"}]({{
-site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_8145.jpg)
-</div>
-
-<div class="col-md-3" markdown="1">
-[![Click the "MONITOR" button to ear the entry signal]({{ site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_8146.png){:.img-border .img-fluid width="380"}]({{
-site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_8146.png)
 </div>
 </div>
 
 
 <div class="row mb-70" markdown="1">
-<div class="col-md-3" markdown="1">
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
+
+
+[![Select source]({{ site.baseurl }}/assets/images/4-sample/4-3-2-sample-source/IMG_7936-1-(42).png){:.img-border .img-fluid }]({{
+site.baseurl }}/assets/images/4-sample/4-3-2-sample-source/IMG_7936-1-(42).png)
 
 **2. Select source**
 
@@ -70,26 +88,24 @@ Click the `"SOURCE"` button to open a window where you can select the available 
 > **Note :** The source button appears under the name of the mode in which it is configured `(MIC-RESAMPLE-IMPORT)`
 
 </div>
-<div class="col-md-3" markdown="1">
-[![Select source]({{ site.baseurl }}/assets/images/4-sample/4-3-2-sample-source/IMG_7803.png){:.img-border .img-fluid  width="380"}]({{
-site.baseurl }}/assets/images/4-sample/4-3-2-sample-source/IMG_7803.png)
-</div>
 </div>
 
 
 <div class="row mb-70" markdown="1">
-<div class="col-md-3" markdown="1">
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
 
-[![RECORD FROM MIC]({{ site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_7748.png){:.img-border .img-fluid}]({{
-site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_7748.png)
+[![RECORD FROM MIC]({{ site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_7748-1.jpg){:.img-border .img-fluid}]({{
+site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_7748-1.jpg)
 
 **RECORD FROM MIC**
 
 This source use the internal microphone of your device as a
+
 </div>
-<div class="col-md-3" markdown="1">
-[![RECORD FROM APP]({{ site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_7749.png){:.img-border .img-fluid}]({{
-site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_7749.png)
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
+
+[![RECORD FROM APP]({{ site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_7749-1.jpg){:.img-border .img-fluid}]({{
+site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_7749-1.jpg)
 
 **RESAMPLE FROM APP**
 
@@ -97,9 +113,10 @@ This source use the master of the app as a source.
 
 
 </div>
-<div class="col-md-3" markdown="1">
-[![IMPORT FILE]({{ site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_7750.png){:.img-border .img-fluid}]({{
-site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_7750.png)
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
+
+[![IMPORT FILE]({{ site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_7750-1.png){:.img-border .img-fluid}]({{
+site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_7750-1.png)
 
 **IMPORT FILE**
 
@@ -107,8 +124,11 @@ This source use the folders of your device to load sounds.
 
 
 </div>
-<div class="col-md-3" markdown="1">
-**Source**
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
+
+![]({{ site.baseurl }}/assets/images/placeholder.png){:.img-placeholder .img-fluid}
+
+**SOURCE**
 
 - mic
 - configuration via usb (ex: connectivity audio `"record player to koala" w audio interface"`)
@@ -131,19 +151,20 @@ This source use the folders of your device to load sounds.
 ### 4.3.2. Sample Source
 
 <div class="col-md-6 mb-70" markdown="1">
+
 There is differents way to add samples in Koala Sampler. Let's see how it works !
+
 </div>
 
 <div class="row mb-70" markdown="1">
-<div class="col-md-3" markdown="1">
-
-**1. Sample from microphone**
-
-Click the `"SOURCE"` button, then choose `"RECORD FROM MIC"`.
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
 
 [![Sample from microphone]({{ site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_7748-1.jpg){:.img-border .img-fluid"}]({{
 site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_7748-1.jpg)
 
+**1. Sample from microphone**
+
+Click the `"SOURCE"` button, then choose `"RECORD FROM MIC"`.
 
 > **Note :** the MIC source is the default mode.
 
@@ -151,14 +172,15 @@ site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_7748-1.jpg)
 - Press an empty pad and it will sample from the microphone.
 
 </div>
-<div class="col-md-3" markdown="1">
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
+
+[![Sample from usb interface]({{ site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_7748-1.jpg){:.img-border .img-fluid"}]({{
+site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_7748-1.jpg)
 
 --help **2. Sample from usb interface**
 
 If your device is connected to a USB interface, Koala use it automatically as a source. The "MIC" source on Koala is now
 your external source.
-
-![Sample from usb interface]()
 
 Click the `"SOURCE"` button, then choose `"RECORD FROM MIC"`.
 
@@ -169,14 +191,14 @@ Click the `"SOURCE"` button, then choose `"RECORD FROM MIC"`.
 
 </div>
 
-<div class="col-md-3" markdown="1">
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
+
+[![Re-sample from app]({{ site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_7749-1.jpg){:.img-border .img-fluid"}]({{
+site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_7749-1.jpg)
 
 **3. Re-sample from app**
 
 You can use the master of the app as a source.
-
-[![Re-sample from app]({{ site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_7749-1.jpg){:.img-border .img-fluid"}]({{
-site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_7749-1.jpg)
 
 - Click the `"SOURCE"` button, then choose `"RESAMPLE FROM APP"`.
 - The source button now appears as `"RESAMPLE"`.
@@ -195,15 +217,14 @@ video.
 
 </div>
 
+<div class="row mb-70" markdown="1">
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
 
 **1. Import files**
-<div class="row mb-70" markdown="1">
-
-<div class="col-md-3" markdown="1">
 
 Koala is able to import audio files from your device folders, many formats are supported `(WAV, MP3, M4A, FLAC)`.
 </div>
-<div class="col-md-3" markdown="1">
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
 
 [![IMPORT FILE]({{ site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_7750-1.png){:.img-border .img-fluid}]({{
 site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_7750-1.png)
@@ -213,7 +234,7 @@ site.baseurl }}/assets/images/4-sample/4-3-1-sample-source/IMG_7750-1.png)
 - Press any empty pad and it will open a window with the folders on your device.
 
 </div>
-<div class="col-md-3" markdown="1">
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
 
 [![IMPORT AUDIO]({{ site.baseurl }}/assets/images/4-sample/4-3-3-loading-a-sample/IMG_7805-1.png){:.img-border .img-fluid}]({{
 site.baseurl }}/assets/images/4-sample/4-3-3-loading-a-sample/IMG_7805-1.png)
@@ -224,23 +245,24 @@ site.baseurl }}/assets/images/4-sample/4-3-3-loading-a-sample/IMG_7805-1.png)
 
 </div>
 
-<div class="col-md-3" markdown="1">
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
 > Note : On iOS devices formats like `AIFF, CAF, WAVPACK` are supported too, and you can try any other format to see if
 > it works !
 </div>
 
 </div>
 
-**2. Convert a video to sample.**
 
 <div class="row mb-70" markdown="1">
-<div class="col-md-3" markdown="1">
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
+
+**2. Convert a video to sample.**
 
 A video screen shot, a video in your gallery, etc... Converting any video in a sample never had been so easy in a
 sampler ! Let's see how to do it.
 </div>
 
-<div class="col-md-3" markdown="1">
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
 
 [![IMPORT VIDEO]({{ site.baseurl }}/assets/images/4-sample/4-3-3-loading-a-sample/IMG_7806-1.png){:.img-border .img-fluid}]({{
 site.baseurl }}/assets/images/4-sample/4-3-3-loading-a-sample/IMG_7806-1.png)
@@ -252,7 +274,7 @@ site.baseurl }}/assets/images/4-sample/4-3-3-loading-a-sample/IMG_7806-1.png)
 
 </div>
 
-<div class="col-md-3" markdown="1">
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
 > **Note :** if you have toggled on `"Hold to record"` in the general settings, you press the pas as long as you want
 > the sample last. You can also slide up the pad to hold record.
 
@@ -274,7 +296,7 @@ Koala is able to import audio files from your device folders, many formats are s
 **1. Open the file picker**
 --help
 <div class="row mb-70" markdown="1">
-<div class="col-md-3" markdown="1">
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
 
 ![File picker](https://lh3.google.com/u/1/d/1ECqjotnHWwTJ1fdsQmNqHD8Ifj2dUODG=w1920-h500-iv1)
 
@@ -282,7 +304,7 @@ Click `"FILE PICKER"` at the bottom right, it opens a window with your favorite 
 
 </div>
 
-<div class="col-md-3" markdown="1">
+<div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
 
 > **Note :** the file picker button appears under the name of the current selected folder."
 
