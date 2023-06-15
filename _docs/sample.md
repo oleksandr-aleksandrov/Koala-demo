@@ -1,8 +1,13 @@
 ---
 layout: docs
-title: 4. Sample
+title: Sample
 order: 4
+desc: 
 ---
+
+[//]: # (// Если у нас есть desc в аттрибутах, то показываем его под заголовком на всю ширину)
+
+[//]: # (Nested Collections in layout or levels)
 
 ## 4.1. Introduction
 

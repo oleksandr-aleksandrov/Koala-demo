@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: 10. Structure
+title: Structure
 order: 10
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: 5. Sequence
+title: Sequence
 order: 5
 ---
 

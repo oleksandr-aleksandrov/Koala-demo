@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: 11. Specifications
+title: Specifications
 order: 11
 ---
 

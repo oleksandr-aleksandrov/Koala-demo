@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: 8. Sharing & Connectivity
+title: Sharing & Connectivity
 order: 8
 ---
 

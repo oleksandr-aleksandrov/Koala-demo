@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: 7. Save-Load a project
+title: Save-Load a project
 order: 7
 ---
 

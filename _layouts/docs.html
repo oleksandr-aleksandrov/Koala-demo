@@ -2,9 +2,11 @@
 layout: base
 ---
 
+<!--#TODO: Add columns updates-->
+
 <article class="post documentation-single-article">
   <div class="documentation-single-article-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
+    <h1 class="post-title">{{page.order}}. {{ page.title | escape }}</h1>
     <a href="{{ "/" | relative_url }}#documentation-items">
     <u>
       Return to menu
@@ -12,13 +14,37 @@ layout: base
     </a>
   </div>
   <div class="post-content">
+    <div class="row" markdown="1">
+      {% assign sorted_sections = site.sections | sort: 'order' %}
+
+      {% for section in site.sections %}
+
+      {% assign itemurl = section.url | split: '/' %}
+
+      {% if section.order-in-chapter == page.order %}
+      {% if section.url contains 'title' %}
+      <div class="w-100"></div>
+      <div class="col-md-6" markdown="1">
+        {{ section.url }}
+        {{ section.output }}
+      </div>
+      <div class="w-100"></div>
+      {% else %}
+      <div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
+        {{ section.url }}
+
+        {{ section.output }}
+      </div>
+      {% endif %}
+      {% endif %}
+      {% endfor %}
+    </div>
+
+    -------
 
     {{ content }}
   </div>
-
 </article>
-
-
 
 {% if page.collection %}
 {% assign collection = site.docs | sort: 'order' %}

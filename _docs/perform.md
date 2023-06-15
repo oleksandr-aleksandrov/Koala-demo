@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: 6. Perform
+title: Perform
 order: 6
 ---
 

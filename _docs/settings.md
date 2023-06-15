@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: 9. Settings
+title: Settings
 order: 9
 ---
 
