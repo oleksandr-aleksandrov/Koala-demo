@@ -13,8 +13,54 @@ layout: base
     </u>
     </a>
   </div>
-  <div class="post-content">
-    <div class="row" markdown="1">
+  <div class="documentation-content post-content">
+
+    <div style="background-color: #4e4e4e; color: #d7dda4; padding: 100px 0; margin-bottom: 80px;">
+      <div class="row">
+
+        {% for item in site.documentation %}
+
+        {% if item.url contains 'section' %}
+
+        {% if item.order-in-chapter == page.order %}
+
+        {% if item.url contains 'title' %}
+        <div class="w-100"></div>
+        <div class="col-md-6">
+          {{ item.url }}
+          <br>
+          <br>
+          <br>
+          {{ item.content | markdownify }}
+          {{ item.output }}
+        </div>
+        <div class="w-100"></div>
+        {% else %}
+        <div class="col-md-6 col-lg-4 col-xl-3 mb-40">
+          {{ item.url }}
+          <br>
+          <br>
+          <br>
+
+          <br>
+          <br>
+          <br>
+
+          {{ item.content | markdownify | liquify }}
+          {{ item.output }}
+        </div>
+        {% endif %}
+
+        {% endif %}
+
+        {% endif %}
+
+        {% endfor %}
+
+      </div>
+    </div>
+
+    <div class="row">
       {% assign sorted_sections = site.sections | sort: 'order' %}
 
       {% for section in site.sections %}
@@ -24,16 +70,18 @@ layout: base
       {% if section.order-in-chapter == page.order %}
       {% if section.url contains 'title' %}
       <div class="w-100"></div>
-      <div class="col-md-6" markdown="1">
+      <div class="col-md-6">
         {{ section.url }}
         {{ section.output }}
       </div>
       <div class="w-100"></div>
       {% else %}
-      <div class="col-md-6 col-lg-4 col-xl-3 mb-40" markdown="1">
+      <div class="col-md-6 col-lg-4 col-xl-3 mb-40">
         {{ section.url }}
 
-        {{ section.output }}
+        {{ section | jsonify | escape}}
+
+        {{ section }}
       </div>
       {% endif %}
       {% endif %}
@@ -47,7 +95,7 @@ layout: base
 </article>
 
 {% if page.collection %}
-{% assign collection = site.docs | sort: 'order' %}
+{% assign collection = site.documentation | sort: 'order' %}
 
 {% assign prev = collection | last %}
 {% assign next = collection | first %}

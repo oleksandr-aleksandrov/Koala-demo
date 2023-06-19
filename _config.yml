@@ -54,11 +54,14 @@ minima:
 #
 # show_excerpts: false
 
-test: 'test'
+kramdown:
+  parse_block_html: true
 
 collections:
   sections:
     output: false
-  docs:
+  documentation:
     output: true
-#    permalink: :path/
+#    permalink: /:collection/:name
+
+

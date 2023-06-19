@@ -2,22 +2,23 @@
 layout: base
 ---
 
+
 <div class="home">
 
-  {% assign sorted_docs = site.docs | sort: 'order' %}
+  {% assign sorted_documentation = site.documentation | sort: 'order' %}
   <div class="documentation-items-wrapper">
 
-    {% for doc in sorted_docs %}
+    {% for documentation_item in sorted_documentation %}
+
     <div id="documentation-items" class="documentation-items">
       <div class="documentation-item">
-        <a href="{{ doc.url | relative_url }}">
-          {{doc.order}}. {{ doc.title }}
+        <a href="{{ documentation_item.url | relative_url }}">
+          {{documentation_item.order}}. {{ documentation_item.title }}
         </a>
       </div>
     </div>
+
     {% endfor %}
   </div>
-
-  {{ content }}
 
 </div>
