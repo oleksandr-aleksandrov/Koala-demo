@@ -7,18 +7,23 @@ layout: base
 <article class="post documentation-single-article">
   <div class="documentation-single-article-header">
     <h1 class="post-title">{{page.order}}. {{ page.title | escape }}</h1>
-    <a href="{{ "/" | relative_url }}#documentation-items">
-    <u>
-      Return to menu
-    </u>
+    <a href="{{ '/' | relative_url }}#documentation-items">
+      <u>
+        Return to menu
+      </u>
     </a>
   </div>
   <div class="documentation-content post-content">
-
     <div style="background-color: #4e4e4e; color: #d7dda4; padding: 100px 0; margin-bottom: 80px;">
       <div class="row">
 
-        {% for item in site.documentation %}
+        {% assign chapters = site.documentation | sort: "path" %}
+
+        {% assign row_id = '' %}
+
+        {% for item in chapters %}
+
+        {% assign documentation_url = item.url | split: '/' | reverse %}
 
         {% if item.url contains 'section' %}
 
@@ -27,72 +32,36 @@ layout: base
         {% if item.url contains 'title' %}
         <div class="w-100"></div>
         <div class="col-md-6">
-          {{ item.url }}
-          <br>
-          <br>
-          <br>
-          {{ item.content | markdownify}}
           {{ item.output }}
         </div>
         <div class="w-100"></div>
         {% else %}
+        {% if row_id != documentation_url[1] %}
+
+        <div class="w-100 py-3"></div>
+
+        {% endif %}
         <div class="col-md-6 col-lg-4 col-xl-3 mb-40">
-          {{ item.url }}
-          <br>
-          <br>
-          <br>
-
-          <br>
-          <br>
-          <br>
-
-          {{ item.content | markdownify}}
           {{ item.output }}
         </div>
-        {% endif %}
 
         {% endif %}
 
         {% endif %}
+
+        {% endif %}
+
+        {% assign row_id = documentation_url[1] %}
 
         {% endfor %}
 
       </div>
     </div>
-
-    <div class="row">
-      {% assign sorted_sections = site.sections | sort: 'order' %}
-
-      {% for section in site.sections %}
-
-      {% assign itemurl = section.url | split: '/' %}
-
-      {% if section.order-in-chapter == page.order %}
-      {% if section.url contains 'title' %}
-      <div class="w-100"></div>
-      <div class="col-md-6">
-        {{ section.url }}
-        {{ section.output }}
-      </div>
-      <div class="w-100"></div>
-      {% else %}
-      <div class="col-md-6 col-lg-4 col-xl-3 mb-40">
-        {{ section.url }}
-
-        {{ section | jsonify | escape}}
-
-        {{ section }}
-      </div>
-      {% endif %}
-      {% endif %}
-      {% endfor %}
-    </div>
-
-    -------
-
-    {{ content }}
   </div>
 </article>
+
+{{ content }}
+
 
 {% if page.collection %}
 {% assign collection = site.documentation | sort: 'order' %}

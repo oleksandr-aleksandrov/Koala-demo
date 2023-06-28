@@ -10,6 +10,8 @@ layout: base
 
     {% for documentation_item in sorted_documentation %}
 
+    {% assign documentation_url = documentation_item.url | split: '/' %}
+
     <div id="documentation-items" class="documentation-items">
       <div class="documentation-item">
         <a href="{{ documentation_item.url | relative_url }}">

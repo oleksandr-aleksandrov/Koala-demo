@@ -42,7 +42,7 @@ pre > code {
 }
 
 .img-placeholder {
-  border-color: transparent;
+  border-color: transparent !important;
 }
 
 blockquote {
@@ -63,6 +63,9 @@ blockquote {
   margin-bottom: 0;
 }
 
+[src="/assets/images/placeholder.png"] {
+  border: 0 !important;
+}
 
 .documentation {
   &-items {
