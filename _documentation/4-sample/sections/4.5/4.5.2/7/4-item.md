@@ -2,7 +2,13 @@
 order-in-chapter: 4
 ---
 
-[![Preview]({{ site.baseurl }}/assets/images/4-sample/4-5/IMG_79322-(45).jpg)]({{
-site.baseurl }}/assets/images/4-sample/4-5/IMG_79322-(45).jpg)
+[![Playthru]({{ site.baseurl }}/assets/images/4-sample/4-5-2/IMG_79322-(3).png)]({{
+site.baseurl }}/assets/images/4-sample/4-5-2/IMG_79322-(3).png)
 
-d. Click `"Preview"` to hear if you like the result.
+**Playthru**
+
+> Will create chops long from each marker to the sample end.
+
+Toggle `off` to desactivate.
+
+

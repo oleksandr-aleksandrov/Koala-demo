@@ -2,7 +2,8 @@
 order-in-chapter: 4
 ---
 
-![Choose an auto-chop type]({{ site.baseurl }}/assets/images/placeholder.png)
+[![Choose an auto-chop type]({{ site.baseurl }}/assets/images/4-sample/4-5-2/IMG_79322-(51).jpg)]({{
+site.baseurl }}/assets/images/4-sample/4-5-2/IMG_79322-(51).jpg)
 
 **3. Choose an auto-chop type**
 

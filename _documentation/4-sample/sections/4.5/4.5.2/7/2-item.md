@@ -2,11 +2,9 @@
 order-in-chapter: 4
 ---
 
-![Re-sample from app](https://lh3.google.com/u/1/d/1ECqjotnHWwTJ1fdsQmNqHD8Ifj2dUODG=w1920-h500-iv1)
+[![Choke Group]({{ site.baseurl }}/assets/images/4-sample/4-5-2/IMG_79322-(5).png)]({{
+site.baseurl }}/assets/images/4-sample/4-5-2/IMG_79322-(5).png)
 
-- Choke Group
-- Choose a group if you want to place your chops in.
-  ![Re-sample from app](https://lh3.google.com/u/1/d/1ECqjotnHWwTJ1fdsQmNqHD8Ifj2dUODG=w1920-h500-iv1)
-- One Shot
+**Choke Group**
 
-> "Will play the sample one shot.
+Choose a group if you want to place your chops in.

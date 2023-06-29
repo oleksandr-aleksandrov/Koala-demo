@@ -6,7 +6,7 @@ layout: base
 
 <article class="post documentation-single-article">
   <div class="documentation-single-article-header">
-    <h1 class="post-title">{{page.order}}. {{ page.title | escape }}</h1>
+    <h1 class="post-title">{{ page.order }}. {{ page.title | escape }}</h1>
     <a href="{{ '/' | relative_url }}#documentation-items">
       <u>
         Return to menu
@@ -14,82 +14,87 @@ layout: base
     </a>
   </div>
   <div class="documentation-content post-content">
-    <div style="background-color: #4e4e4e; color: #d7dda4; padding: 100px 0; margin-bottom: 80px;">
-      <div class="row">
+    {{ page.description }}
 
-        {% assign chapters = site.documentation | sort: "path" %}
+    {{ content }}
 
-        {% assign row_id = '' %}
+    <div class="row">
 
-        {% for item in chapters %}
+      {% assign chapters = site.documentation | sort: "path" %}
 
-        {% assign documentation_url = item.url | split: '/' | reverse %}
+      {% assign row_id = '' %}
 
-        {% if item.url contains 'section' %}
+      {% for chapter in chapters %}
 
-        {% if item.order-in-chapter == page.order %}
+      {% assign documentation_url = chapter.url | split: '/' | reverse %}
 
-        {% if item.url contains 'title' %}
-        <div class="w-100"></div>
-        <div class="col-md-6">
-          {{ item.output }}
-        </div>
-        <div class="w-100"></div>
-        {% else %}
-        {% if row_id != documentation_url[1] %}
+      {% if chapter.url contains 'section' %}
 
-        <div class="w-100 py-3"></div>
+      {% if chapter.order-in-chapter == page.order %}
 
-        {% endif %}
-        <div class="col-md-6 col-lg-4 col-xl-3 mb-40">
-          {{ item.output }}
-        </div>
-
-        {% endif %}
-
-        {% endif %}
-
-        {% endif %}
-
-        {% assign row_id = documentation_url[1] %}
-
-        {% endfor %}
-
+      {% if chapter.url contains 'title' %}
+      <div class="w-100"></div>
+      <div class="col-md-6">
+        {{ chapter.output }}
       </div>
+      <div class="w-100"></div>
+      {% else %}
+      {% if row_id != documentation_url[1] %}
+
+      <div class="w-100 py-3"></div>
+
+      {% endif %}
+      <div class="col-md-6 col-lg-4 col-xl-3 mb-40">
+        {{ chapter.output }}
+      </div>
+
+      {% endif %}
+
+      {% endif %}
+
+      {% endif %}
+
+      {% assign row_id = documentation_url[1] %}
+
+      {% endfor %}
+
     </div>
   </div>
 </article>
 
-{{ content }}
-
 
 {% if page.collection %}
-{% assign collection = site.documentation | sort: 'order' %}
+{% assign posts = site[page.collection] | sort: 'order' %}
+{% for links in posts %}
 
-{% assign prev = collection | last %}
-{% assign next = collection | first %}
-
-{% for item in collection %}
-{% if item.title == page.title %}
-
+{% unless links.url contains 'section' %}
+{% if links.title == page.title %}
 {% unless forloop.first %}
-{% assign prev = iterator %}
+{% assign prevurl = prev.url %}
 {% endunless %}
-
 {% unless forloop.last %}
-{% assign next = collection[forloop.index] %}
+{% assign next = posts[forloop.index] %}
+{% assign nexturl = next.url %}
 {% endunless %}
 {% endif %}
+{% assign prev = links %}
+{% endunless %}
 
-{% assign iterator = item %}
 {% endfor %}
-{% endif %}
 
+<!--<ul class="pager">-->
+<!--  {% if prevurl %}-->
+<!--  <li><a class="btn btn-outline-primary" href="{{prevurl}}">Previous</a></li>-->
+<!--  {% endif %}-->
+<!--  {% if nexturl %}-->
+<!--  <li class="next"><a class="btn btn-outline-primary" href="{{nexturl}}">Next</a></li>-->
+<!--  {% endif %}-->
+<!--</ul>-->
 
 <div class="documentation-navigation">
   <div>
-    {% if prev %}
-    <a class="prev" href="{{ prev.url | relative_url}}">
+    {% if prevurl %}
+    <a class="prev" href="{{ prevurl | relative_url}}">
       <u>
         Previous chapter
       </u>
@@ -97,15 +102,15 @@ layout: base
     {% endif %}
   </div>
   <div>
-    <a href="{{ "/" | relative_url }}#documentation-items">
-    <u>
-      Return to menu
-    </u>
+    <a href="{{ '/' | relative_url }}#documentation-items">
+      <u>
+        Return to menu
+      </u>
     </a>
   </div>
   <div>
-    {% if page.next.url %}
-    <a class="next" href="{{ next.url | relative_url}}">
+    {% if nexturl %}
+    <a class="next" href="{{ nexturl | relative_url}}">
       <u>
         Next chapter
       </u>
@@ -113,3 +118,5 @@ layout: base
     {% endif %}
   </div>
 </div>
+
+{% endif %}

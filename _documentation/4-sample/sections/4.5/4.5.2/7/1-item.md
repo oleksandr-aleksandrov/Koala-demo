@@ -2,10 +2,11 @@
 order-in-chapter: 4
 ---
 
-![Re-sample from app](https://lh3.google.com/u/1/d/1ECqjotnHWwTJ1fdsQmNqHD8Ifj2dUODG=w1920-h500-iv1)
+[![Keep original]({{ site.baseurl }}/assets/images/4-sample/4-5-2/IMG_79322-(1).png)]({{
+site.baseurl }}/assets/images/4-sample/4-5-2/IMG_79322-(1).png)
 
-Keep original
+**Keep original**
 
 > Preserve the original pad when exporting chop
 
-Toggle off if you want to wipe the original sample.
+Toggle `off` if you want to wipe the original sample.

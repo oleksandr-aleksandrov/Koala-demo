@@ -7,20 +7,23 @@ layout: base
 
   {% assign sorted_documentation = site.documentation | sort: 'order' %}
   <div class="documentation-items-wrapper">
-
-    {% for documentation_item in sorted_documentation %}
-
-    {% assign documentation_url = documentation_item.url | split: '/' %}
-
     <div id="documentation-items" class="documentation-items">
+
+      {% for documentation_item in sorted_documentation %}
+
+      {% assign documentation_url = documentation_item.url | split: '/' %}
+
+      {% unless documentation_item.url contains 'section' %}
+
       <div class="documentation-item">
         <a href="{{ documentation_item.url | relative_url }}">
           {{documentation_item.order}}. {{ documentation_item.title }}
         </a>
       </div>
+
+      {% endunless %}
+
+      {% endfor %}
     </div>
-
-    {% endfor %}
   </div>
-
 </div>
