@@ -5,6 +5,6 @@ order-in-chapter: 5
 [![Merge patterns]({{ site.baseurl }}/assets/images/5-sequence/5-3-2/IMG_5_3-(3).jpg)]({{
 site.baseurl }}/assets/images/5-sequence/5-3-2/IMG_5_3-(3).jpg)
 
-Adding swing consists in shifting the off-beats
+Adjust the swing
 
-Click `"BPM"` to open the bpm window
+Click or Slide `"SWING"` until you get the value you want

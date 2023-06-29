@@ -29,6 +29,12 @@ pre > code {
   background-color: transparent;
 }
 
+.site-title {
+  &:hover {
+    text-decoration: none !important;
+  }
+}
+
 .img-border,
 .img-placeholder,
 .documentation-content img {

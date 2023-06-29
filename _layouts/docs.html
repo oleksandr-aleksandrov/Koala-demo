@@ -24,28 +24,28 @@ layout: base
 
       {% assign row_id = '' %}
 
-      {% for chapter in chapters %}
+      {% for chapter_part in chapters %}
 
-      {% assign documentation_url = chapter.url | split: '/' | reverse %}
+      {% assign documentation_url = chapter_part.url | split: '/' | reverse %}
 
-      {% if chapter.url contains 'section' %}
+      {% if chapter_part.url contains 'section' %}
 
-      {% if chapter.order-in-chapter == page.order %}
+      {% if chapter_part.order-in-chapter == page.order %}
 
-      {% if chapter.url contains 'title' %}
+      {% if chapter_part.url contains 'title' %}
       <div class="w-100"></div>
       <div class="col-md-6">
-        {{ chapter.output }}
+        {{ chapter_part.output }}
       </div>
       <div class="w-100"></div>
       {% else %}
       {% if row_id != documentation_url[1] %}
 
-      <div class="w-100 py-3"></div>
+      <div class="w-100"></div>
 
       {% endif %}
       <div class="col-md-6 col-lg-4 col-xl-3 mb-40">
-        {{ chapter.output }}
+        {{ chapter_part.output }}
       </div>
 
       {% endif %}
