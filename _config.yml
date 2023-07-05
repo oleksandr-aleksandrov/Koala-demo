@@ -58,10 +58,7 @@ kramdown:
   parse_block_html: true
 
 collections:
-  sections:
-    output: false
   documentation:
     output: true
 #    permalink: /:collection/:name
-
 

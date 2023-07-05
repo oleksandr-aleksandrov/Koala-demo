@@ -2,8 +2,6 @@
 layout: base
 ---
 
-<!--#TODO: Add columns updates-->
-
 <article class="post documentation-single-article">
   <div class="documentation-single-article-header">
     <h1 class="post-title">{{ page.order }}. {{ page.title | escape }}</h1>
@@ -17,6 +15,15 @@ layout: base
     {{ page.description }}
 
     {{ content }}
+
+    ===================================
+
+    {% module "documentation/chapter1.md" %}
+
+    ==================================
+    ==================================
+    ==================================
+
 
     <div class="row">
 
@@ -64,40 +71,50 @@ layout: base
 
 
 {% if page.collection %}
-{% assign posts = site[page.collection] | sort: 'order' %}
-{% for links in posts %}
+
+{% assign chapters = site[page.collection] | sort: 'order' %}
+
+{% for links in chapters %}
 
 {% unless links.url contains 'section' %}
+
 {% if links.title == page.title %}
+
 {% unless forloop.first %}
-{% assign prevurl = prev.url %}
+
+{% assign prev_chapter_url = prev.url %}
+{% assign prev_chapter_title = prev.title %}
+{% assign prev_chapter_order = prev.order %}
+
 {% endunless %}
+
 {% unless forloop.last %}
-{% assign next = posts[forloop.index] %}
-{% assign nexturl = next.url %}
+
+{% assign next = chapters[forloop.index] %}
+{% assign next_chapter_url = next.url %}
+{% assign next_chapter_title = next.title %}
+{% assign next_chapter_order = next.order %}
+
 {% endunless %}
+
 {% endif %}
+
 {% assign prev = links %}
+
 {% endunless %}
 
 {% endfor %}
 
-<!--<ul class="pager">-->
-<!--  {% if prevurl %}-->
-<!--  <li><a class="btn btn-outline-primary" href="{{prevurl}}">Previous</a></li>-->
-<!--  {% endif %}-->
-<!--  {% if nexturl %}-->
-<!--  <li class="next"><a class="btn btn-outline-primary" href="{{nexturl}}">Next</a></li>-->
-<!--  {% endif %}-->
-<!--</ul>-->
-
 <div class="documentation-navigation">
   <div>
-    {% if prevurl %}
-    <a class="prev" href="{{ prevurl | relative_url}}">
+    {% if prev_chapter_url %}
+    <a class="prev" href="{{ prev_chapter_url | relative_url}}">
       <u>
         Previous chapter
       </u>
+      <div style="text-align: left; font-size: 16px;">
+        {{prev_chapter_order}}. {{ prev_chapter_title }}
+      </div>
     </a>
     {% endif %}
   </div>
@@ -109,11 +126,14 @@ layout: base
     </a>
   </div>
   <div>
-    {% if nexturl %}
-    <a class="next" href="{{ nexturl | relative_url}}">
+    {% if next_chapter_url %}
+    <a class="next" href="{{ next_chapter_url | relative_url}}">
       <u>
         Next chapter
       </u>
+      <div style="text-align: left; font-size: 16px;">
+        {{next_chapter_order}}. {{ next_chapter_title }}
+      </div>
     </a>
     {% endif %}
   </div>
