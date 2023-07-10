@@ -40,6 +40,8 @@ layout: base
 
       {% for chapter in chapters %}
 
+      {% if chapter.url contains 'mobile' %}
+
       {% unless chapter.url contains 'section' %}
 
       <div class="documentation-item">
@@ -49,6 +51,8 @@ layout: base
       </div>
 
       {% endunless %}
+
+      {% endif %}
 
       {% endfor %}
     </div>

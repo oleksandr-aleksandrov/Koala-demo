@@ -54,11 +54,20 @@ minima:
 #
 # show_excerpts: false
 
-kramdown:
-  parse_block_html: true
+#kramdown:
+#  parse_block_html: true
 
 collections:
   documentation:
-    output: true
-#    permalink: /:collection/:name
+    output: false
+#    permalink: /:collection/:path/
 
+  mobile:
+    output: true
+    permalink: /:collection/:path/
+  tablet:
+    output: true
+    permalink: /:collection/:path/
+
+#markdown: kramdown
+permalinks: pretty

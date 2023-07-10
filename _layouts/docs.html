@@ -12,20 +12,12 @@ layout: base
     </a>
   </div>
   <div class="documentation-content post-content">
+
     {{ page.description }}
 
     {{ content }}
 
-    ===================================
-
-    {% module "documentation/chapter1.md" %}
-
-    ==================================
-    ==================================
-    ==================================
-
-
-    <div class="row">
+    <div class="d-none">
 
       {% assign chapters = site.documentation | sort: "path" %}
 
@@ -33,13 +25,39 @@ layout: base
 
       {% for chapter_part in chapters %}
 
-      {% assign documentation_url = chapter_part.url | split: '/' | reverse %}
+      {% if chapter_part.order-in-chapter == page.order %}
 
-      {% if chapter_part.url contains 'section' %}
+      {% capture my_include %} {% include_relative {{chapter_part.path | replace: '_documentation/','' }} %}{%
+      endcapture
+      %}
+
+      {{ my_include | split: "---" | last | markdownify }}
+
+      {% endif %}
+
+
+      {% assign row_id = documentation_url[1] %}
+
+      {% endfor %}
+
+    </div>
+
+    <div class="row d-none1">
+
+      {% assign chapters = site.documentation | sort: "path" %}
+
+      {% assign row_id = '' %}
+
+      {% for chapter_part in chapters %}
+
+      {% assign documentation_url = chapter_part.path | split: '/' | reverse %}
+
+      {% if chapter_part.path contains 'section' %}
 
       {% if chapter_part.order-in-chapter == page.order %}
 
-      {% if chapter_part.url contains 'title' %}
+      {% if chapter_part.path contains 'title' %}
+
       <div class="w-100"></div>
       <div class="col-md-6">
         {{ chapter_part.output }}
@@ -52,7 +70,12 @@ layout: base
 
       {% endif %}
       <div class="col-md-6 col-lg-4 col-xl-3 mb-40">
-        {{ chapter_part.output }}
+
+        {% capture my_include %} {% include_relative {{chapter_part.path | replace: '_documentation/','' }} %}{%
+        endcapture
+        %}
+
+        {{ my_include | split: "---" | last | markdownify }}
       </div>
 
       {% endif %}

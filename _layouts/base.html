@@ -1,20 +1,26 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.lang | default: site.lang | default: " en" }}">
 
-  {%- include head.html -%}
+{%- include head.html -%}
 
-  <body>
+<body>
 
-    {%- include header.html -%}
+{%- include header.html -%}
 
-    <main class="page-content" aria-label="Content">
-      <div class="container">
-        {{ content }}
-      </div>
-    </main>
+<main class="page-content" aria-label="Content">
+  <div class="container">
+    {{ content }}
+  </div>
+</main>
 
-    {%- include footer.html -%}
+{%- include footer.html -%}
 
-  </body>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+
+<script>
+  Fancybox.bind("[data-fancybox]");
+</script>
+
+</body>
 
 </html>
