@@ -120,11 +120,38 @@ blockquote {
   }
 }
 
-
 .mb-70 {
   margin-bottom: 70px;
 }
 
 .mb-40 {
   margin-bottom: 40px;
+}
+
+.documentation-single-article-header-switcher {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+//
+.documentation-single-article-header-switcher-item {
+  font-size: 0;
+}
+
+.documentation-single-article-header-switcher-item-active {
+
+  background-color: #fff;
+  border-radius: 150%;
+  padding: 8px;
+}
+
+.documentation-single-article-header-menu {
+  text-align: right;
+}
+
+.home-documentation-item-title {
+  margin-top: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
 }

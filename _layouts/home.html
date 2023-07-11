@@ -3,59 +3,28 @@ layout: base
 ---
 
 <div class="home">
-  <div>
+  <div style="max-width: 900px; margin: 0 auto;">
     <div class="row">
       <div class="col-md-6">
-        <div>
-          <div style="padding-top: 56%;
-    background-color: rgb(0 0 0 / 30%);">
-            <a href="#"></a>
-          </div>
+        <div class="home-documentation-item" style="text-align: center">
           <a href="{{ '/mobile/' | relative_url }}">
-            img mobile
+            <img width="300" src="/assets/images/2/IMG_8148.png" alt="Mobile Documentation" class="">
+            <div class="home-documentation-item-title">
+              Mobile Documentation
+            </div>
           </a>
         </div>
       </div>
       <div class="col-md-6">
-        <div>
-          <div style="padding-top: 56%;
-    background-color: rgb(0 0 0 / 30%);">
-            <a href="#"></a>
-          </div>
-          <a href="#">
-            img mobile
+        <div class="home-documentation-item" style="text-align: center">
+          <a href="{{ '/tablet/' | relative_url }}">
+            <img width="300" src="/assets/images/2/IMG_8148.png" alt="Tablet Documentation" class="">
+            <div class="home-documentation-item-title">
+              Tablet Documentation
+            </div>
           </a>
         </div>
       </div>
     </div>
   </div>
 </div>
-
-<div class="home">
-
-  {% assign chapters = site.documentation | sort: 'order' %}
-
-  <div class="documentation-items-wrapper">
-    <div id="documentation-items" class="documentation-items">
-
-      {% for chapter in chapters %}
-
-      {% if chapter.url contains 'mobile' %}
-
-      {% unless chapter.url contains 'section' %}
-
-      <div class="documentation-item">
-        <a href="{{ chapter.url | relative_url }}">
-          {{chapter.order}}. {{ chapter.title }}
-        </a>
-      </div>
-
-      {% endunless %}
-
-      {% endif %}
-
-      {% endfor %}
-    </div>
-  </div>
-</div>
-

@@ -4,7 +4,7 @@ layout: base
 
 <div class="home">
 
-  {% assign chapters = site.documentation | sort: 'order' %}
+  {% assign chapters = site[page.collection] | sort: 'order' %}
 
   <div class="documentation-items-wrapper">
     <div id="documentation-items" class="documentation-items">
@@ -13,11 +13,15 @@ layout: base
 
       {% unless chapter.url contains 'section' %}
 
+      {% unless chapter.hidden == true %}
+
       <div class="documentation-item">
         <a href="{{ chapter.url | relative_url }}">
           {{chapter.order}}. {{ chapter.title }}
         </a>
       </div>
+
+      {% endunless %}
 
       {% endunless %}
 
