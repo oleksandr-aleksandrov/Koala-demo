@@ -22,7 +22,7 @@
 #   end
 # end
 
-Jekyll::Hooks.register :site, :post_write do |site|
+Jekyll::Hooks.register :site, :after_reset do |site|
   root_directory = Dir.pwd
   source_directory = '_documentation'
   destination_directory_mobile = '_mobile'
