@@ -1,10 +1,15 @@
 @import "_bootstrap-grid";
 
 body {
-  background-image: url(https://www.koalasampler.com/wp-content/uploads/2021/04/bg.png);
+  background-image: var(--background_image);
   color: $body-color;
   background-color: #283838;
-  font-size: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 30px;
+  }
 }
 
 a {
@@ -55,6 +60,12 @@ blockquote {
   padding: 10px;
   margin: 20px 0;
   font-size: 28px;
+}
+
+@media screen and (min-width: 768px) {
+  blockquote {
+    font-size: 20px;
+  }
 }
 
 .img-fluid,
@@ -147,11 +158,35 @@ blockquote {
 }
 
 .documentation-single-article-header-menu {
-  text-align: right;
+  margin-bottom: 20px;
+  @media screen and (min-width: 992px) {
+    text-align: right;
+  }
+}
+
+.home-documentation-item a {
+  display: block;
+}
+
+@media (hover: hover) {
+  .home-documentation-item a:hover img {
+    transform: scale(1.05);
+  }
+
 }
 
 .home-documentation-item-title {
   margin-top: 30px;
   font-weight: 400;
-  text-transform: uppercase;
+}
+
+.home-documentation-item-image img {
+  transition: .5s;
+}
+
+.home-documentation-item-image {
+  padding: 30px;
+  background-color: #00000033;
+  overflow: hidden;
+  text-align: center;
 }

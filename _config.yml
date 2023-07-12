@@ -13,7 +13,6 @@ description: >
 # Build settings
 
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-toc
 
@@ -53,6 +52,14 @@ minima:
 # Set to `true` to show excerpts on the homepage.
 #
 # show_excerpts: false
+
+# TOC Settings
+toc:
+  min_level: 1
+  max_level: 3
+  list_class: toc
+  list_class: toc__list
+  sublist_class: toc__sublist
 
 #kramdown:
 #  parse_block_html: true

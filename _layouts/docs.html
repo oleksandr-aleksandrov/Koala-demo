@@ -9,28 +9,7 @@ layout: base
     </div>
     <div class="documentation-single-article-header-menu">
 
-      <div class="documentation-single-article-header-switcher">
-
-        {% if page.collection == 'tablet' %}
-
-          {% assign another_page_url = page.url | replace: '/tablet/','/mobile/' %}
-          {% assign current_page_title = page.collection %}
-          {% assign current_page_img = '/assets/images/icons-smartphone.png' %}
-          {% assign another_page_title = page.collection | replace: 'tablet','mobile' %}
-
-        {% elsif page.collection == 'mobile' %}
-
-          {% assign another_page_url = page.url | replace: '/mobile/','/tablet/' %}
-          {% assign current_page_title = page.collection %}
-          {% assign another_page_title = page.collection | replace: 'mobile','tablet' %}
-
-        {% endif %}
-
-        <a class="documentation-single-article-header-switcher-item" href="{{ another_page_url  | relative_url  }}">
-          Switch to <span style="text-transform: capitalize; font-weight: 400; text-decoration: underline;">{{ another_page_title }}</span>
-          version
-        </a>
-      </div>
+      {%- include documentation/mobile-tablet-switcher.html -%}
 
       <a href="{{ page.collection | relative_url }}#documentation-items">
         <u>
@@ -45,127 +24,10 @@ layout: base
 
     {{ content }}
 
-    <div class="row">
+    {%- include documentation/body.html -%}
 
-      {% assign chapters = site.documentation | sort: "path" %}
-
-      {% assign row_id = '' %}
-
-      {% for chapter_part in chapters %}
-
-      {% assign documentation_url = chapter_part.path | split: '/' | reverse %}
-
-      {% if chapter_part.path contains 'template-parts' %}
-
-      {% if chapter_part.order-in-chapter == page.order %}
-
-      {% if chapter_part.path contains 'title' %}
-
-      <div class="w-100"></div>
-      <div class="col-md-6">
-        {{ chapter_part.output }}
-      </div>
-      <div class="w-100"></div>
-      {% else %}
-      {% if row_id != documentation_url[1] %}
-
-      <div class="w-100"></div>
-
-      {% endif %}
-      <div class="col-md-6 col-lg-4 col-xl-3 mb-40">
-
-        {% capture my_include %} {% include_relative {{chapter_part.path | replace: '_documentation/','' }} %}{%
-        endcapture
-        %}
-
-        {{ my_include | split: "---" | last | markdownify }}
-      </div>
-
-      {% endif %}
-
-      {% endif %}
-
-      {% endif %}
-
-      {% assign row_id = documentation_url[1] %}
-
-      {% endfor %}
-
-    </div>
   </div>
 </article>
 
 
-{% if page.collection %}
-
-{% assign chapters = site[page.collection] | sort: 'order' %}
-
-{% for links in chapters %}
-
-{% unless links.hidden == true %}
-
-{% unless links.path contains 'template-parts' %}
-
-{% if links.title == page.title %}
-
-{% unless forloop.first %}
-
-{% assign prev_chapter_url = prev.url %}
-{% assign prev_chapter_title = prev.title %}
-{% assign prev_chapter_order = prev.order %}
-
-{% endunless %}
-
-{% unless forloop.last %}
-
-{% assign next = chapters[forloop.index] %}
-{% assign next_chapter_url = next.url %}
-{% assign next_chapter_title = next.title %}
-{% assign next_chapter_order = next.order %}
-
-{% endunless %}
-
-{% endif %}
-
-<!--{% assign prev = links %}-->
-
-{% endunless %}
-{% endunless %}
-
-{% endfor %}
-
-<div class="documentation-navigation">
-  <div style="text-align: left;">
-    {% if prev_chapter_url %}
-    <a class="prev" href="{{ prev_chapter_url | relative_url}}">
-      <u>
-        Previous chapter
-      </u>
-      <div style="font-size: 16px;">
-        {{prev_chapter_order}}. {{ prev_chapter_title }}
-      </div>
-    </a>
-    {% endif %}
-  </div>
-  <div>
-    <a href="{{ page.collection | relative_url }}#documentation-items">
-      <u>
-        Return to menu
-      </u>
-    </a>
-  </div>
-  <div style="text-align: right;">
-    {% if next_chapter_url %}
-    <a class="next" href="{{ next_chapter_url | relative_url}}">
-      <u>
-        Next chapter
-      </u>
-      <div style="font-size: 16px;">
-        {{next_chapter_order}}. {{ next_chapter_title }}
-      </div>
-    </a>
-    {% endif %}
-  </div>
-</div>
-
-{% endif %}
+{%- include documentation/pagination.html -%}

@@ -27,15 +27,15 @@ Jekyll::Hooks.register :site, :after_reset do |site|
   end
 end
 
-# Jekyll::Hooks.register :site, :post_write do |site|
-#   root_directory = site.source
-#   mobile_dir = File.join(root_directory, '_mobile')
-#   tablet_dir = File.join(root_directory, '_tablet')
-#   mobile_template_parts_dir = File.join(site.dest, 'mobile', 'template-parts')
-#   tablet_template_parts_dir = File.join(site.dest, 'tablet', 'template-parts')
-#
-#   FileUtils.rm_rf(mobile_dir) if Dir.exist?(mobile_dir)
-#   FileUtils.rm_rf(tablet_dir) if Dir.exist?(tablet_dir)
-#   FileUtils.rm_rf(mobile_template_parts_dir) if Dir.exist?(mobile_template_parts_dir)
-#   FileUtils.rm_rf(tablet_template_parts_dir) if Dir.exist?(tablet_template_parts_dir)
-# end
+Jekyll::Hooks.register :site, :post_write do |site|
+  root_directory = site.source
+  mobile_dir = File.join(root_directory, '_mobile')
+  tablet_dir = File.join(root_directory, '_tablet')
+  mobile_template_parts_dir = File.join(site.dest, 'mobile', 'template-parts')
+  tablet_template_parts_dir = File.join(site.dest, 'tablet', 'template-parts')
+
+  FileUtils.rm_rf(mobile_dir) if Dir.exist?(mobile_dir)
+  FileUtils.rm_rf(tablet_dir) if Dir.exist?(tablet_dir)
+  FileUtils.rm_rf(mobile_template_parts_dir) if Dir.exist?(mobile_template_parts_dir)
+  FileUtils.rm_rf(tablet_template_parts_dir) if Dir.exist?(tablet_template_parts_dir)
+end
