@@ -3,7 +3,7 @@ order-in-chapter: 2
 ---
 
 
-{% flexible_image /2/IMG_8150.png %}
+{% flexible_image link="/2/IMG_8150.png" alt="Sequence" %}
 
 [//]: # ([![Sequence]&#40;{{ site.baseurl }}/assets/images/2/IMG_8150.png&#41;)
 
